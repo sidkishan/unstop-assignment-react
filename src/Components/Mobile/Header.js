@@ -1,17 +1,18 @@
 import React, { useContext } from "react";
-import mobile from "../../Assets/Mobile.svg";
+import hamburger from "../../Assets/HAMBURGER_MENU.svg";
+import desktop from "../../Assets/laptop_mac.svg";
 import { AppContext } from "../../AppContext";
 const Header = () => {
   const { isMobile, setIsMobile } = useContext(AppContext);
   return (
-    <div className="nav-header">
+    <div className="header-container">
       <div>
-        <h3>Assesment</h3>
-        <h4>My Assesments</h4>
+        <img src={hamburger} alt="hamburger-menu-icon" />
+        <h3>Assessment</h3>
       </div>
       <img
-        src={mobile}
-        alt="mobile-log"
+        src={desktop}
+        alt="desktop-icon"
         onClick={() => setIsMobile(!isMobile)}
       />
     </div>

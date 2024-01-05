@@ -1,0 +1,22 @@
+.mobile-layout {
+  width: 430px;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header-container {
+  padding: 5px 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 2px solid #dde5ea; */
+}
+.header-container div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.header-container img {
+  cursor: pointer;
+}
