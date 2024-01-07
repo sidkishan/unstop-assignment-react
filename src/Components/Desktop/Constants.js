@@ -81,7 +81,7 @@ export const customStyles = {
     marginRight: "-40%",
     transform: "translate(-50%, -50%)",
     border: "none",
-    backgroungColor: "#f8f8f8",
+    backgroungColor: "red", //#f8f8f8
     boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
   },
 };

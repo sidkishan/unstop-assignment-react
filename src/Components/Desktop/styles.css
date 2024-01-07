@@ -144,8 +144,8 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
+  align-items: center;
+  gap: 10px;
 }
 .user-count {
   display: flex;
