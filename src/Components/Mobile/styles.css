@@ -1,6 +1,5 @@
 .mobile-layout {
   width: 430px; /* as given in the figma design , we can customize accordingly */
-
   margin: auto;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
@@ -102,12 +101,12 @@ h4 {
 }
 /* creating side panel */
 .side-panel {
-  height: 100vh; /* Specify a height */
+  height: 110vh; /* Specify a height */
   width: 300px;
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
-  left: calc(545px); /*Math haha*/
+  left: calc(100vw- ((100vw-430px) / 2));
   background-color: #e5f1fc;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding: 0px 20px;
