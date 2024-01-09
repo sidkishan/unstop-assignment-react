@@ -8,7 +8,7 @@ import { dataObj1, dataObj2 } from "../Desktop/Constants";
 const MobileUI = () => {
   const [isSideBarOpen, setIsSidebarOpen] = useState(false);
   return (
-    <div className="mobile-layout">
+    <div className="mobile-layout" style={{}}>
       {isSideBarOpen && (
         <div className="side-panel">
           <p
