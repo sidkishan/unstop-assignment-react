@@ -39,11 +39,6 @@ const Dashboard = () => {
   function closeModal() {
     setModalIsOpen(false);
   }
-  const bg = {
-    overlay: {
-      background: "#FFFF00",
-    },
-  };
   return (
     <div className="dashboard">
       <Modal

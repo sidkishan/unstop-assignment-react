@@ -101,18 +101,19 @@ h4 {
 }
 /* creating side panel */
 .side-panel {
-  height: 110vh; /* Specify a height */
-  width: 300px;
+  height: 100vh; /* Specify a height */
+  width: 320px;
   position: sticky; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
   background-color: #e5f1fc;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding: 0px 20px;
+  overflow: hidden; /* Disable scroll */
+  padding: 0px 25px;
   display: flex;
   flex-flow: column wrap;
   opacity: 1;
+  box-sizing: border-box;
 }
 .side-panel > p {
   font-size: medium;
